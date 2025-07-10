@@ -1,3 +1,7 @@
+/* whole page style */
+.webpage{
+    background-color: rgb(211, 211, 211);
+}
 
 /*header background */
 .header{
@@ -71,4 +75,31 @@ nav ul li{
     width: 905px;
     height: 152px;
     margin-bottom: 37px;
+}
+/* actionsection style */
+.action-page{
+    display: flex;
+    gap: 220px;
+    padding: 116px 160px 0px 140px;
+    width: 1440px;
+
+}
+.action-left{
+    height: 203px;
+    width: 517px;
+}
+.action-tittle{
+   font-weight: 700;
+    font-size: 42px;
+    color: #252432;  
+}
+.action-sub-tittle{
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5); 
+}
+.action-image{
+   height: 328px;
+   width: 403px;
+   border-radius: 48px;
 }
