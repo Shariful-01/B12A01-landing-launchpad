@@ -1,6 +1,6 @@
 /* whole page style */
 .webpage{
-    background-color: rgb(211, 211, 211);
+    background-color: rgba(196, 218, 238, 0.393);
 }
 
 /*header background */
@@ -102,4 +102,43 @@ nav ul li{
    height: 328px;
    width: 403px;
    border-radius: 48px;
+}
+/* Productive Users Section syle */
+.product-page{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    padding: 50px 80px;
+    width: 1140px;
+    height: 306px;
+    margin: 116px 160px 0px 60px;
+}
+.product-div{
+    display:flex;
+}
+
+.stat-box {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.prod-tittle{
+   font-weight: 700;
+    font-size: 38px;
+    color: #252432;
+    text-align: center;  
+}
+.tittle{
+    font-weight: 700;
+    font-size: 80px;
+    color: #4E47FF;  
+     margin-bottom: 10px;
+}
+.subtittle{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+     margin-top: 0;
+  line-height: 1.1;
 }
