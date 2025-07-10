@@ -142,3 +142,99 @@ nav ul li{
      margin-top: 0;
   line-height: 1.1;
 }
+/* this is touch section style */
+.contra{
+   
+    gap: 220px;
+    margin: 116px 160px 0px 140px;
+    
+}
+.contact-form {
+  display: flex;
+  width: 400px;
+   gap: 220px;
+    padding: 116px 160px 0px 140px;
+    width: 1440px;
+}
+
+/* Heading */
+.contact-form h1 {
+ font-size: 97px;
+ font-weight: 700;
+ color: #000000;
+}
+.contact-form form{
+    align-items: right;
+    margin: 71px 0px;
+}
+
+/* Form fields */
+.contact-form label,button {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+
+.contact-form input,
+.contact-form textarea {
+ width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+/* Textarea adjustment */
+.contact-form textarea {
+  resize: none;
+  height: 120px;
+}
+
+/* logo section */
+.hero-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.hero-section .logo {
+  font-size: 72px;
+  font-weight: 700;
+  color: #4E47FF;
+  margin-bottom: 20px;
+}
+
+
+.hero-section .description {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  line-height: 1.5;
+}
+
+
+.hero-section .nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.hero-section .nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.hero-section .nav-links a:hover {
+  color: #4E47FF;
+}
+
