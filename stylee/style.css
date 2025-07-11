@@ -13,19 +13,7 @@
 }
 
 
-/*  .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal; 
-} */
 
-/* .raleway-font {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-} */
 /* whole page style */
 .webpage{
     background-color: #F5F7FF;
@@ -38,7 +26,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: center; */
   min-height: 100vh;
   margin: 0;
 }
@@ -47,7 +34,6 @@ body {
 .header{
     background-image: url(../Assets/Hero-bg.png);
     background-repeat: no-repeat;
-    /* width: 1440px; */
     height: 698px;
     background-position: center;
 }
@@ -56,7 +42,6 @@ body {
 nav{
     display: flex;
     align-items: center;
-    /* width: 1140px; */
     height: 151px;
     margin: 10px 151px;
     padding: 10px 0px;
@@ -73,15 +58,6 @@ nav ul li{
 }
 
 /* button style */
-.button-style{
-    background-color: #4E47FF;
-    font-weight: bold;
-    color: white;
-    padding: 18px 35px 19px 36px;
-    border-radius: 10px;
-    font-size: 16px;
-    border: none;
-}
 .button-wrapper {
   display: flex;
   justify-content: center;
@@ -93,13 +69,10 @@ nav ul li{
 .banner{
     margin-top: 158px;
     margin-bottom: 200px;
-    margin: 0 auto;
-    /* width: 905px; */
-    /* height: 237px; */
+    margin: 0 auto;    
     align-items: center;
     text-align: center;
     justify-content: center;
-    /* margin: 309px 267.5px 152px; */
     padding: 0px 300px;
     width: 900px;
 }
@@ -113,9 +86,6 @@ nav ul li{
     justify-content: center;
 }
 /* actionsection style */
-.actionpage-position{
-  
-}
 .action-page{
     display: flex;
     gap: 220px;
@@ -218,10 +188,7 @@ nav ul li{
 
 
 /* this is touch section style */
-/* .contra{  
-    gap: 220px;
-    margin: 116px 160px 0px 140px;  
-} */
+
 .contact-form {
   display: flex;
    width: 1200px;
@@ -274,7 +241,6 @@ nav ul li{
 /* this is user say page */
 .testimonial-section {
   padding: 60px 20px;
-  /* background-color: #f9f9f9; */
   text-align: center;
   font-family: 'Raleway', sans-serif;
    width: 1380px;
@@ -317,21 +283,20 @@ nav ul li{
 .custom-sub-heading {
   text-align: left;
   font-size: 17px;
-  font-weight: 300px;
+  font-weight: 300;
 }
 .custom-name {
-  /* width: 900px; */
   text-align: left;
   font-size: 20px; 
   line-height: 1.5;
-  font-weight: 400px;
+  font-weight: 400;
   margin-bottom: 0px;
   color: #8987a180;
 }
 .custom-date {
   text-align: left;
   font-size: 17px;
-  font-weight: 200px;
+  font-weight: 200;
   margin-top: 0px;
     color: #91909d8a;
 }
@@ -405,7 +370,7 @@ nav ul li{
   max-width: 600px;
   margin: 0 auto 40px auto;
   line-height: 1.5;
-  font-weight: 100px;
+  font-weight: 100;
 }
 
 
@@ -429,7 +394,7 @@ nav ul li{
 
 
 
-/*glowing button */
+/*glowing button style */
 .glow-button {
   background-color: #4E47FF;
   color: bisque;
