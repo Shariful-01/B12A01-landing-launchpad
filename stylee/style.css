@@ -56,6 +56,13 @@ nav ul li{
     font-size: 16px;
     border: none;
 }
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /* banner style */
 .banner{
     margin-top: 158px;
@@ -143,18 +150,17 @@ nav ul li{
   line-height: 1.1;
 }
 /* this is touch section style */
-.contra{
-   
+/* .contra{  
     gap: 220px;
-    margin: 116px 160px 0px 140px;
-    
-}
+    margin: 116px 160px 0px 140px;  
+} */
 .contact-form {
   display: flex;
-  width: 400px;
-   gap: 220px;
+   width: 1200px;
+   gap: 150px;
     padding: 116px 160px 0px 140px;
-    width: 1440px;
+    align-items: center;
+   
 }
 
 /* Heading */
@@ -164,7 +170,7 @@ nav ul li{
  color: #000000;
 }
 .contact-form form{
-    align-items: right;
+    align-items: center;
     margin: 71px 0px;
 }
 
@@ -179,13 +185,16 @@ nav ul li{
 
 .contact-form input,
 .contact-form textarea {
- width: 100%;
+ width: 500px;
   padding: 10px 12px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 6px;
   margin-bottom: 20px;
   box-sizing: border-box;
+}
+.form-button-style{
+   width: 500px;
 }
 
 /* Textarea adjustment */
@@ -194,29 +203,142 @@ nav ul li{
   height: 120px;
 }
 
+/* this is user say page */
+.testimonial-section {
+  padding: 60px 20px;
+  /* background-color: #f9f9f9; */
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+   width: 1380px;
+   margin-top: 10px;
+}
+
+.testimonial-section h2 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.testimonial-grid {
+  display: flex;
+  justify-content: space-around;
+ flex-wrap:wrap;
+  gap: 10px;
+  align-items: center;
+}
+.say-header{
+  font-size: 42px;
+  font-weight: 700;
+  color: #252432;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  width: 300px;
+}
+.custom-heading {
+  width: 900px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.custom-sub-heading {
+  text-align: left;
+  font-size: 17px;
+  font-weight: 300px;
+}
+.custom-name {
+  /* width: 900px; */
+  text-align: left;
+  font-size: 20px; 
+  line-height: 1.5;
+  font-weight: 400px;
+  margin-bottom: 0px;
+  color: #8987a180;
+}
+.custom-date {
+  text-align: left;
+  font-size: 17px;
+  font-weight: 200px;
+  margin-top: 0px;
+    color: #91909d8a;
+}
+
+.testimonial-card .stars {
+  color: #f5b301;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.testimonial-card p {
+  font-size: 16px;
+  color: rgba(0,0,0,0.7);
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.testimonial-card .reviewer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+.reviewer-info {
+  font-size: 14px;
+  color: #555;
+}
+.reviewer-info p {
+  margin: 0;
+}
+.inter-font {
+  margin-bottom: 2px;
+}
+
+.custom-name {
+  margin-top: 0;
+}
+
+
+
+
+
 /* logo section */
 .hero-section {
   text-align: center;
-  padding: 60px 20px;
+  padding: 100px 20px;
   background-color: #ffffff;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'inter', sans-serif;
+  width: 1320px;
 }
 
 
 .hero-section .logo {
   font-size: 72px;
-  font-weight: 700;
+  font-weight: 900;
   color: #4E47FF;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 
 .hero-section .description {
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.7);
+  color: #8987A1;
   max-width: 600px;
   margin: 0 auto 40px auto;
   line-height: 1.5;
+  font-weight: 100px;
 }
 
 
@@ -228,7 +350,7 @@ nav ul li{
 
 .hero-section .nav-links a {
   text-decoration: none;
-  color: #333;
+  color: #8987A1;
   font-weight: 500;
   font-size: 16px;
   transition: color 0.3s ease;
@@ -240,7 +362,7 @@ nav ul li{
 
 
 
-/* button */
+/*glowing button */
 .glow-button {
   background-color: #4E47FF;
   color: white;
@@ -250,7 +372,7 @@ nav ul li{
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0); /* initial shadow */
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
 }
 
 .glow-button:hover {
